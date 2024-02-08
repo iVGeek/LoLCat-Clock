@@ -35,18 +35,20 @@ var updateClock = function(){
     	messageText = "Good Morning!";
 	}
 	else if (time > evening) {
-		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/evng.jpg";
-		messageText = "Good Evening!";
-	}
-	else {
-		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/lazyafternoon.jpg";
-    	messageText = "Good Afternoon!";
-	}
-	
-	else {
-		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/gdnt.jpg";
-    	messageText = "GoodNight!";
-	}
+    // Corrected URL to point directly to an image file
+    image = "https://raw.githubusercontent.com/iVGeek/LoLCat-Clock/main/images/evng.jpg";
+    messageText = "Good Evening!";
+}
+// Removed the second else block and used an else if condition for goodnight
+else if (time == goodnight) {
+    // Corrected URL to point directly to an image file
+    image = "https://raw.githubusercontent.com/iVGeek/LoLCat-Clock/main/images/gdnt.jpg";
+    messageText = "GoodNight!";
+}
+else {
+    image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/lazyafternoon.jpg";
+    messageText = "Good Afternoon!";
+}
 
 	message.innerText = messageText;
 	lolcat.src = image;
