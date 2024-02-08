@@ -2,7 +2,9 @@ var noon = 12;
 var evening = 18; // 6PM
 var wakeUpTime = 9; // 9AM
 var lunchTime = 12; // 12PM
+var afternoon = 2; //2PM
 var partyTime = 17; // 5PM
+var goodnight = 9; // 9PM
 var napTime = lunchTime + 2; // 2PM
 var time = new Date().getHours();
 
@@ -33,10 +35,17 @@ var updateClock = function(){
     	messageText = "Good Morning!";
 	}
 	else if (time > evening) {
+		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/evng.jpg";
 		messageText = "Good Evening!";
 	}
 	else {
+		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/lazyafternoon.jpg";
     	messageText = "Good Afternoon!";
+	}
+	
+	else {
+		image = "https://github.com/iVGeek/LoLCat-Clock/blob/main/images/gdnt.jpg";
+    	messageText = "GoodNight!";
 	}
 
 	message.innerText = messageText;
