@@ -12,7 +12,7 @@ Use vanilla JavaScript and DOM manipulation to create a clock that features:
 * Images that change when each of the timers goes off.
 * A "Party Time" button that changes color when clicked, and also changes the image.
 
-![lolcat-project]![image](https://github.com/iVGeek/LoLCat-Clock/blob/main/photo-1533738363-b7f9aef128ce.jpg)
+![image](https://github.com/iVGeek/LoLCat-Clock/blob/main/photo-1533738363-b7f9aef128ce.jpg)
 
 ## Launch
 
