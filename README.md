@@ -1,6 +1,6 @@
 # LOLcat Clock Project
 
-The LOLcat Clock Skillcrush project is based on the popular LOLcat memes. (More info about LOLcat here: https://en.wikipedia.org/wiki/Lolcat)
+The LOLcat Clock project is based on the popular LOLcat memes. (More info about LOLcat here: https://en.wikipedia.org/wiki/Lolcat)
 
 ## Objective
 
@@ -18,7 +18,5 @@ Use vanilla JavaScript and DOM manipulation to create a clock that features:
 
 View the LOLcat Clock Project here: https://ivgeek.github.io/LoLCat-Clock/
 
-## Class
-*Skillcrush, Break Into Tech - Front End Developer Track*
 
 JavaScript Fundamentals
