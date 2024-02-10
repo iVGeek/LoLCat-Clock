@@ -16,7 +16,7 @@ Use vanilla JavaScript and DOM manipulation to create a clock that features:
 
 ## Launch
 
-View the LOLcat Clock Project here:
+View the LOLcat Clock Project here: https://ivgeek.github.io/LoLCat-Clock/
 
 ## Class
 *Skillcrush, Break Into Tech - Front End Developer Track*
